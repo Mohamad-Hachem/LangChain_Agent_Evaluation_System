@@ -1,0 +1,17 @@
+[project]
+name = "langchain-agent-evaluation-system"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Mohamad-Hachem", email = "mohamad27hachem@outlook.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+langchain-agent-evaluation-system = "langchain_agent_evaluation_system:main"
+
+[build-system]
+requires = ["uv_build>=0.12.22,<0.13.0"]
+build-backend = "uv_build"
