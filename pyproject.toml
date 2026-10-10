@@ -8,9 +8,10 @@ authors = [
 ]
 requires-python = ">=3.12"
 dependencies = [
-    "deepeval>=4.2.8",
+    "deepeval[inspect]>=4.2.8",
     "langchain>=1.4.4",
     "langchain-openai>=1.7.0",
+    "portalocker[win32]>=4.4.0",
 ]
 
 [project.scripts]
